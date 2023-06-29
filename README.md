@@ -89,6 +89,30 @@ Alternatively, you can run the notebook locally. You need to set up a virtual en
 
 Now, your virtual environment is ready.
 
+
+## Obtaining OpenStates API Key
+
+Follow the steps below to get your OpenStates API key:
+
+1. **Create an OpenStates Account:**
+
+    If you don't already have an OpenStates account, you'll need to create one. You can do this by visiting the [OpenStates website](https://openstates.org/). Click on "Sign Up" and follow the prompts to create an account.
+
+2. **Request an API Key:**
+
+    Once you've created an account and logged in, you'll need to request an API key. Navigate to the API section of the OpenStates website, or visit this link directly: [https://openstates.org/api/register/](https://openstates.org/api/register/). 
+
+    Fill out the form with the necessary information, including a brief description of how you plan to use the API. Then, click "Request Key".
+
+3. **Retrieve Your API Key:**
+
+    After you've submitted the form, you'll be directed to a page that displays your new API key. Make sure to save this key in a secure location, as you'll need it to make requests to the OpenStates API.
+
+    **NOTE:** Be careful not to share your API key with anyone, as it is associated with your account and could be used to make requests on your behalf.
+
+Now, you can use your API key to make requests to the OpenStates API. You typically include your API key in the header or query parameters of your API requests. Please note that that "Great power comes with great responsibility". Automated data querries from the *web* should be done carefully. Be sure to refer to the OpenStates API [documentation](https://docs.openstates.org/) for specific instructions on how to use your API key.
+
+
 ## License
 
 This project is licensed under the Apache2.0 License - see the LICENSE file for details
